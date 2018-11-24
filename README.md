@@ -1,6 +1,6 @@
 # DS1307
 
-makecode DS1307 RTC extension for micro:bit  
+makecode DS1307 RTC extension for micro:bit.  
 
 Author: shaoziyang  
 Date:   2018.Mar  
