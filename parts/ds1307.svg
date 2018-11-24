@@ -12,7 +12,7 @@
    gorn="0"
    height="1.1950001in"
    id="svg4547"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="ds1307.svg"
    version="1.2"
    viewBox="0 0 68.399996 86.040005"
@@ -26,7 +26,7 @@
      guidetolerance="10"
      id="namedview8208"
      inkscape:current-layer="svg4547"
-     inkscape:cx="45.599999"
+     inkscape:cx="26.630549"
      inkscape:cy="57.360003"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
@@ -59,7 +59,7 @@
   <g
      gorn="0.8"
      id="g4583"
-     transform="rotate(90.064532,34.349788,34.28249)">
+     transform="rotate(90.064532,34.688528,34.620849)">
     <title
        id="title4585">text:SDA</title>
     <text
@@ -73,7 +73,7 @@
   <g
      gorn="0.9"
      id="g4589"
-     transform="rotate(90.064532,34.349788,34.28249)">
+     transform="rotate(90.064532,34.688528,34.620849)">
     <title
        id="title4591">text:SCL</title>
     <text
@@ -87,7 +87,7 @@
   <g
      gorn="0.10"
      id="g4595"
-     transform="rotate(90.064532,34.349788,34.28249)">
+     transform="rotate(90.064532,34.688528,34.620849)">
     <title
        id="title4597">text:5V</title>
     <text
@@ -101,7 +101,7 @@
   <g
      gorn="0.11"
      id="g4601"
-     transform="rotate(90.064532,34.349788,34.28249)">
+     transform="rotate(90.064532,34.688528,34.620849)">
     <title
        id="title4603">text:GND</title>
     <text
@@ -115,7 +115,7 @@
   <g
      gorn="0.12"
      id="g4607"
-     transform="rotate(90.064532,34.349788,34.28249)">
+     transform="rotate(90.064532,34.688528,34.620849)">
     <title
        id="title4609">text:SQW</title>
     <text
@@ -1311,12 +1311,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 42.777006,40.744598 -0.0078,6.955195 -3.023999,-0.0034 0.0078,-6.955195 3.023998,0.0034 m -1.514213,1.963896 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.28"
-     id="path4947"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="2"
      cx="44.173988"
@@ -1326,12 +1320,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 49.977002,40.752707 -0.0078,6.955196 -3.023998,-0.0034 0.0078,-6.955196 3.023999,0.0034 m -1.514213,1.963896 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.30"
-     id="path4950"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="N$39"
      cx="44.173988"
@@ -1341,12 +1329,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 57.176997,40.760816 -0.0078,6.955196 -3.023998,-0.0034 0.0078,-6.955196 3.023998,0.0034 m -1.514213,1.963896 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.32"
-     id="path4953"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="GND"
      cx="44.173988"
@@ -1356,12 +1338,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 64.376992,40.768926 -0.0078,6.955195 -3.023998,-0.0034 0.0078,-6.955195 3.023998,0.0034 m -1.514212,1.963895 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.34"
-     id="path4956"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="SDA"
      cx="22.573994"
@@ -1371,12 +1347,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 64.40132,19.168939 -0.0078,6.955196 -3.023998,-0.0034 0.0078,-6.955196 3.023998,0.0034 m -1.514213,1.963896 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.36"
-     id="path4959"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="SCL"
      cx="22.573994"
@@ -1386,12 +1356,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 57.201325,19.16083 -0.0078,6.955196 -3.023998,-0.0034 0.0078,-6.955196 3.023998,0.0034 m -1.514213,1.963896 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.38"
-     id="path4962"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="SQW"
      cx="22.573994"
@@ -1401,12 +1365,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 50.001329,19.152721 -0.0078,6.955195 -3.023998,-0.0034 0.0078,-6.955195 3.023998,0.0034 m -1.514212,1.963895 a 1.5120005,1.5120005 0 0 0 -0.0034,3.023999 1.5120005,1.5120005 0 1 0 0.0034,-3.023999 z"
-     gorn="0.40"
-     id="path4965"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="VCC"
      cx="22.573994"
@@ -1416,12 +1374,6 @@
      r="1.512"
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
-  <path
-     d="m 42.801334,19.144611 -0.0078,6.955196 -3.023998,-0.0034 0.0078,-6.955195 3.023998,0.0034 m -1.514213,1.963896 a 1.512,1.512 0 0 0 -0.0034,3.023998 1.512,1.512 0 1 0 0.0034,-3.023998 z"
-     gorn="0.42"
-     id="path4968"
-     inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
   <circle
      connectorname="SQW"
      cx="5.6539927"
@@ -1432,11 +1384,12 @@
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
   <path
-     d="m 36.269141,1.5548432 -0.0093,8.279995 -3.599997,-0.004 0.0093,-8.279995 3.599998,0.004 m -1.802634,2.337971 a 1.8000002,1.8000002 0 1 0 -0.0041,3.599998 1.8000002,1.8000002 0 1 0 0.0041,-3.599998 z"
+     d="m 38.60249,7.4974887 -8.279995,-0.0093 0.004,-3.599997 8.279995,0.0093 -0.004,3.599998 m -2.337971,-1.802634 c 0.0032,-2.4004541 -3.596807,-2.4045541 -3.599998,-0.0041 -0.0032,2.4004541 3.596808,2.4045541 3.599998,0.0041 z"
      gorn="0.44"
      id="path4971"
      inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
+     style="fill:#9a916c;stroke:none;stroke-width:0"
+     sodipodi:nodetypes="cccccsss" />
   <circle
      connectorname="SCL"
      cx="5.6539927"
@@ -1447,11 +1400,12 @@
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
   <path
-     d="m 43.469136,1.5629522 -0.0093,8.279995 -3.599998,-0.004 0.0093,-8.279995 3.599997,0.004 m -1.802634,2.337971 a 1.8000002,1.8000002 0 0 0 -0.0041,3.599998 1.8000002,1.8000002 0 1 0 0.0041,-3.599998 z"
+     d="m 45.802484,7.5055987 -8.279995,-0.0093 0.004,-3.599998 8.279995,0.0093 -0.004,3.599997 m -2.337971,-1.802634 c 0.0023,-2.3995411 -3.597722,-2.4036411 -3.599998,-0.0041 -0.0032,2.4004541 3.596808,2.4045541 3.599998,0.0041 z"
      gorn="0.46"
      id="path4974"
      inkscape:connector-curvature="0"
-     style="fill:#9a916c;stroke:none;stroke-width:0" />
+     style="fill:#9a916c;stroke:none;stroke-width:0"
+     sodipodi:nodetypes="cccccccc" />
   <circle
      connectorname="SDA"
      cx="5.6539927"
@@ -1462,7 +1416,7 @@
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
   <path
-     d="m 50.669132,1.5710612 -0.0093,8.279995 -3.599998,-0.0041 0.0093,-8.279995 3.599998,0.004 m -1.802635,2.337972 a 1.8,1.8 0 1 0 -0.0041,3.599997 1.8,1.8 0 1 0 0.0041,-3.599997 z"
+     d="m 53.00243,7.5136577 -8.279994,-0.0093 0.0041,-3.599998 8.279995,0.0093 -0.004,3.599998 m -2.337972,-1.802635 a 1.8,1.8 0 1 0 -3.599997,-0.0041 1.8,1.8 0 1 0 3.599997,0.0041 z"
      gorn="0.48"
      id="path4977"
      inkscape:connector-curvature="0"
@@ -1477,7 +1431,7 @@
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
   <path
-     d="m 57.869127,1.5791712 -0.0093,8.279994 -3.599998,-0.004 0.0093,-8.279994 3.599997,0.0041 m -1.802634,2.337971 a 1.8000002,1.8000002 0 1 0 -0.0041,3.599998 1.8000002,1.8000002 0 1 0 0.0041,-3.599998 z"
+     d="m 60.202475,7.5218172 -8.279994,-0.0093 0.004,-3.599998 8.279994,0.0093 -0.0041,3.599997 m -2.337971,-1.802634 a 1.8000002,1.8000002 0 1 0 -3.599998,-0.0041 1.8000002,1.8000002 0 1 0 3.599998,0.0041 z"
      gorn="0.50"
      id="path4980"
      inkscape:connector-curvature="0"
@@ -1492,7 +1446,7 @@
      style="fill:none;stroke:#9a916c;stroke-width:0.72000003"
      transform="rotate(90.064532)" />
   <path
-     d="m 65.069123,1.5872802 -0.0093,8.279995 -3.599998,-0.004 0.0093,-8.279995 3.599998,0.004 m -1.802635,2.337971 a 1.8000002,1.8000002 0 1 0 -0.0041,3.599998 1.8000002,1.8000002 0 1 0 0.0041,-3.599998 z"
+     d="m 67.402472,7.5299267 -8.279995,-0.0093 0.004,-3.599998 8.279995,0.0093 -0.004,3.599998 m -2.337971,-1.802635 a 1.8000002,1.8000002 0 1 0 -3.599998,-0.0041 1.8000002,1.8000002 0 1 0 3.599998,0.0041 z"
      gorn="0.52"
      id="path4983"
      inkscape:connector-curvature="0"
@@ -1571,7 +1525,7 @@
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type
                    rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                <dc:title />
+                <dc:title></dc:title>
               </cc:Work>
             </rdf:RDF>
           </metadata>
