@@ -2,9 +2,9 @@
   "DS1307": {
     "visual": {
       "image": "parts/ds1307.svg",
-      "width": 85,
-      "height": 108,
-      "pinDistance": 15,
+      "width": 68,
+      "height": 85,
+      "pinDistance": 7.2,
       "pinLocations": [
         {
           "x": 63,
