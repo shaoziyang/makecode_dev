@@ -2,7 +2,7 @@
   "DS1302": {
     "visual": {
       "image": "parts/ds1302.svg",
-      "width": 68,
+      "width": 48,
       "height": 85,
       "pinDistance": 7.2,
       "pinLocations": [
