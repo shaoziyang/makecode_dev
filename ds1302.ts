@@ -102,7 +102,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_year" block="%ds|get year"
         //% weight=80 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getYear(): number {
             return (HexToDec(this.getReg(DS1302_REG_YEAR + 1)) + 2000)
         }
@@ -113,7 +113,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_year" block="%ds|set year %dat"
         //% weight=81 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         setYear(dat: number): void {
             this.wr(DS1302_REG_YEAR, DecToHex(dat % 100))
         }
@@ -123,7 +123,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_month" block="%ds|get month"
         //% weight=78 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getMonth(): number {
             return HexToDec(this.getReg(DS1302_REG_MONTH + 1))
         }
@@ -134,7 +134,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_month" block="%ds|set month %dat"
         //% weight=79 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% dat.min=1 dat.max=12
         setMonth(dat: number): void {
             this.wr(DS1302_REG_MONTH, DecToHex(dat % 13))
@@ -145,7 +145,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_day" block="%ds|get day"
         //% weight=76 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getDay(): number {
             return HexToDec(this.getReg(DS1302_REG_DAY + 1))
         }
@@ -156,7 +156,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_day" block="%ds|set day %dat"
         //% weight=77 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% dat.min=1 dat.max=31
         setDay(dat: number): void {
             this.wr(DS1302_REG_DAY, DecToHex(dat % 32))
@@ -167,7 +167,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_weekday" block="%ds|get weekday"
         //% weight=74 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getWeekday(): number {
             return HexToDec(this.getReg(DS1302_REG_WEEKDAY + 1))
         }
@@ -178,7 +178,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_weekday" block="%ds|set weekday %dat"
         //% weight=75 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% dat.min=1 dat.max=7
         setWeekday(dat: number): void {
             this.wr(DS1302_REG_WEEKDAY, DecToHex(dat % 8))
@@ -189,7 +189,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_hour" block="%ds|get hour"
         //% weight=72 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getHour(): number {
             return HexToDec(this.getReg(DS1302_REG_HOUR + 1)) % 24
         }
@@ -200,7 +200,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_hour" block="%ds|set hour %dat"
         //% weight=73 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% dat.min=0 dat.max=23
         setHour(dat: number): void {
             this.wr(DS1302_REG_HOUR, DecToHex(dat % 24))
@@ -211,7 +211,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_minute" block="%ds|get minute"
         //% weight=72 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getMinute(): number {
             return HexToDec(this.getReg(DS1302_REG_MINUTE + 1)) % 60
         }
@@ -222,7 +222,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_minute" block="%ds|set minute %dat"
         //% weight=71 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% dat.min=0 dat.max=59
         setMinute(dat: number): void {
             this.wr(DS1302_REG_MINUTE, DecToHex(dat % 60))
@@ -233,7 +233,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_get_second" block="%ds|get second"
         //% weight=70 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         getSecond(): number {
             return HexToDec(this.getReg(DS1302_REG_SECOND + 1)) % 60
         }
@@ -244,7 +244,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_second" block="%ds|set second %dat"
         //% weight=69 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% dat.min=0 dat.max=59
         setSecond(dat: number): void {
             this.wr(DS1302_REG_SECOND, DecToHex(dat % 60))
@@ -262,7 +262,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_set_DateTime" block="%ds|set Date and Time: Year %year|Month %month|Day %day|WeekDay %weekday|Hour %hour|Minute %minute|Second %second"
         //% weight=50 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% year.min=2000 year.max=2100
         //% month.min=1 month.max=12
         //% day.min=1 day.max=31
@@ -285,7 +285,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_start" block="%ds|start RTC"
         //% weight=41 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         start() {
             let t = this.getSecond()
             this.setSecond(t & 0x7f)
@@ -296,7 +296,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_pause" block="%ds|pause RTC"
         //% weight=40 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         stop() {
             let t = this.getSecond()
             this.setSecond(t | 0x80)
@@ -307,7 +307,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_read_ram" block="%ds|read ram %reg"
         //% weight=43 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% reg.min=0 reg.max=30
         readRam(reg: number): number {
             return this.getReg(DS1302_REG_RAM + 1 + (reg % 31) * 2)
@@ -318,7 +318,7 @@ namespace DS1302 {
          */
         //% blockId="DS1302_write_ram" block="%ds|write ram %reg|with %dat"
         //% weight=42 blockGap=8
-        //% parts="DS302" trackArgs=0
+        //% parts=DS1302 trackArgs=0
         //% reg.min=0 reg.max=30
         writeRam(reg: number, dat: number) {
             this.wr(DS1302_REG_RAM + (reg % 31) * 2, dat)
@@ -333,7 +333,7 @@ namespace DS1302 {
      */
     //% weight=200 blockGap=8
     //% blockId="DS1302_create" block="CLK %clk|DIO %dio|CS %cs"
-    //% parts="DS1302" trackArgs=0
+    //% parts=DS1302 trackArgs=0
     //% blockSetVariable=ds
     export function create(clk: DigitalPin, dio: DigitalPin, cs: DigitalPin): DS1302RTC {
         let ds = new DS1302RTC();
