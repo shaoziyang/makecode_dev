@@ -1,0 +1,79 @@
+{
+  "DS1302": {
+    "visual": {
+      "image": "parts/ds1302.svg",
+      "width": 68,
+      "height": 85,
+      "pinDistance": 7.2,
+      "pinLocations": [
+        {
+          "x": 39,
+          "y": 5
+        },
+        {
+          "x": 31.8,
+          "y": 5
+        },
+        {
+          "x": 24.6,
+          "y": 5
+        },
+        {
+          "x": 17.4,
+          "y": 5
+        },
+        {
+          "x": 10.2,
+          "y": 5
+        }      ]
+    },
+    "numberOfPins": 5,
+    "instantiation": {
+      "kind": "function",
+      "fullyQualifiedName": "DS1302.start,DS1302.stop,DS1302.readRam,DS1302.writeRam,DS1302.DateTime,DS1302.setSecond,DS1302.getSecond,DS1302.setMinute,DS1302.getMinute,DS1302.setHour,DS1302.getHour,DS1302.setWeekday,DS1302.getWeekday,DS1302.setDay,DS1302.getDay,DS1302.setMonth,DS1302.getMonth,DS1302.setYear,DS1302.getYear",
+      "argumentRoles": [
+        {
+          "pinInstantiationIdx": 0
+        }
+      ]
+    },
+    "pinDefinitions": [
+      {
+        "target": "threeVolt",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "ground",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "CLK",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "DAT",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "CS",
+        "style": "male",
+        "orientation": "+Y"
+      }
+    ],
+    "assembly": [
+      {
+        "pinIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  }
+}
