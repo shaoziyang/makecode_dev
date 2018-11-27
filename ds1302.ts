@@ -333,7 +333,7 @@ namespace DS1302 {
      */
     //% weight=200 blockGap=8
     //% blockId="DS1302_create" block="CLK %clk|DIO %dio|CS %cs"
-    //% parts=DS1302 trackArgs=0
+    //% parts=DS1302 trackArgs=3
     //% blockSetVariable=ds
     export function create(clk: DigitalPin, dio: DigitalPin, cs: DigitalPin): DS1302RTC {
         let ds = new DS1302RTC();
