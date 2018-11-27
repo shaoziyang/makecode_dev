@@ -10,7 +10,7 @@
         "README.md",
         "pxtparts.json",
         "ds1302.ts",
-        "parts/ds1307.svg"
+        "parts/ds1302.svg"
     ],
     "testFiles": [
         "test.ts"
