@@ -283,7 +283,7 @@ namespace DS1302 {
         /**
          * start ds1302 (go on)
          */
-        //% blockId="DS1302_start" block="%ds|start RTC"
+        //% blockId="DS1302_start" block="%ds|start RTC" advanced=true
         //% weight=41 blockGap=8
         //% parts=DS1302 trackArgs=0
         start() {
@@ -294,7 +294,7 @@ namespace DS1302 {
         /**
          * stop ds1302 (pause)
          */
-        //% blockId="DS1302_pause" block="%ds|pause RTC"
+        //% blockId="DS1302_pause" block="%ds|pause RTC" advanced=true
         //% weight=40 blockGap=8
         //% parts=DS1302 trackArgs=0
         stop() {
@@ -305,7 +305,7 @@ namespace DS1302 {
         /**
          * read RAM
          */
-        //% blockId="DS1302_read_ram" block="%ds|read ram %reg"
+        //% blockId="DS1302_read_ram" block="%ds|read ram %reg" advanced=true
         //% weight=43 blockGap=8
         //% parts=DS1302 trackArgs=0
         //% reg.min=0 reg.max=30
@@ -316,7 +316,7 @@ namespace DS1302 {
         /**
          * write RAM
          */
-        //% blockId="DS1302_write_ram" block="%ds|write ram %reg|with %dat"
+        //% blockId="DS1302_write_ram" block="%ds|write ram %reg|with %dat" advanced=true
         //% weight=42 blockGap=8
         //% parts=DS1302 trackArgs=0
         //% reg.min=0 reg.max=30
